@@ -130,10 +130,10 @@ var World = {
             "id": 1,
             "latitude": 37.504041,
             "longitude": 127.025744,
-            "description": ("cu건물      "),
+            "description": ("씨유편의점"),
             /* Use this value to ignore altitude information in general - marker will always be on user-level. */
             "altitude": AR.CONST.UNKNOWN_ALTITUDE,
-            "name": ("CU               "),
+            "name": ("씨유편의점"),
             "distance": ("10m")
         });        
         
@@ -154,7 +154,7 @@ var World = {
             "description": ("마포갈매기"),
             /* Use this value to ignore altitude information in general - marker will always be on user-level. */
             "altitude": AR.CONST.UNKNOWN_ALTITUDE,
-            "name": ("마포갈매기           "),
+            "name": ("마포갈매기"),
             "distance": ("10m")
         });
 
