@@ -1,49 +1,33 @@
-html, body {
+html,
+body {
     margin: 0;
     height: 100%;
     overflow: hidden
 }
 
-#footer {
+
+.header {
+    background-color: #ddd;
     position: absolute;
-    text-align: center;
     width: 100%;
-    bottom: calc(1vh + env(safe-area-inset-bottom));
+    align-items: center;
+    display: flex;
 }
 
-#popupButton {
-    margin: auto;
+.closeButton {
+    z-index: 1;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #ccc;
+    font-weight: bold;
+    font-size: small;
+    background-color: #fff;
+    white-space: nowrap;
 }
 
-#popupButton img {
-    width: 100%;
-    height: 100%;
-}
 
-#popupButton img:hover {
-    opacity: 0.7;
-}
 
-#popupButtonTooltip {
-  visibility: hidden;
-  background-color: #edeca8;
-  color: #000;
-  font-family: sans-serif;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  position: absolute;
-  z-index: 1;
-  bottom: 100%;
-  left: 50%;
-}
-
-#popupButton:hover #popupButtonTooltip {
-    visibility: visible
-}
-
-@media screen and (orientation: portrait) {
+/* @media screen and (orientation: portrait) {
     #popupButton {
         width: 5vh;
         height: 5vh;
@@ -53,9 +37,34 @@ html, body {
         width: 40vw;
         margin-left: -20vw;
     }
-}
 
-@media screen and (orientation: landscape) {
+    #panelPoiDetail {
+        width: 70vw;
+    }
+
+    .header {
+        top: 2vh;
+        height: 5vh;
+    }
+
+    .closeButton {
+        height: 4vh;
+        margin-left: 1vw;
+    }
+
+    .headerTitle {
+        margin-left: -10vh;
+        margin-right: 1vw;
+    }
+
+    .content {
+        top: 7vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+} */
+
+/* @media screen and (orientation: landscape) {
     #popupButton {
         width: 5vw;
         height: 5vw;
@@ -65,4 +74,155 @@ html, body {
         width: 40vh;
         margin-left: -20vh;
     }
+
+    #panelPoiDetail {
+        width: 70vh;
+    }
+
+    .header {
+        top: 2vw;
+        height: 5vw;
+    }
+
+    .closeButton {
+        height: 4vw;
+        margin-left: 1vh;
+    }
+
+    .headerTitle {
+        margin-left: -10vw;
+        margin-right: 1vh;
+    }
+
+    .content {
+        top: 7vw;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+} */
+
+
+
+#panelPoiDetail {
+    display: block;
+    width: 320px;
+    height: 215px;
+    position: absolute;
+    left: 16px;
+    top: 420px;
+    border-radius: 16px;
+    font-family: sans-serif;
+    visibility: hidden;
+    background-image: url('../assets/detail_container.png');
+    background: linear-gradient(120.67deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 101.72%), linear-gradient(113.89deg, rgba(45, 159, 253, 0.15) 0.33%, rgba(179, 24, 193, 0.15) 101.78%);
+}
+
+.detail_image {
+    border-radius: 12px;
+    position: absolute;
+    top: 18px;
+    left: 16px;
+}
+
+.right {
+    position: absolute;
+    left: 157px;
+    top: 24px;
+}
+
+.category {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 94px;
+    height: 24px;
+    background: rgba(255, 224, 230, 0.4);
+    border: 1px solid #BF6C88;
+    border-radius: 100px;
+    /* position: relative; */
+}
+
+.circle {
+    /* position: absolute; */
+    width: 9px;
+    height: 9px;
+    background: #D02B62;
+    border-radius: 100%;
+    margin-left: 5px;
+}
+
+.category_title {
+    /* position: absolute;
+    left: 20px; */
+    font-family: 'PP Object Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    color: #D02B62;
+    padding-left: 10px;
+}
+
+#poiDetailTitle {
+    margin: 0;
+    margin-top: 7px;
+    font-family: 'PP Object Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+}
+
+#poiDetailDescription {
+    margin: 0;
+    margin-top: 7px;
+    font-family: 'PP Object Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+}
+
+#poiDetailDistance {
+    margin: 0;
+    margin-top: 7px;
+    font-family: 'PP Object Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+}
+
+#poiDetailDistance2 {
+    margin: 0;
+    margin-top: 7px;
+    font-family: 'PP Object Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.detail_box {
+    width: 296px;
+    height: 47px;
+    position: absolute;
+    left: 16px;
+    top: 152px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    font-family: 'PP Object Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    background: rgba(255, 255, 255, 0.3);
+    /* backdrop-filter: blur(10px); */
+    border-radius: 12px;
 }
