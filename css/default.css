@@ -3,7 +3,7 @@ body {
     margin: 0;
     height: 100%;
     overflow: hidden;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Poor Story', cursive;
 }
 
 
@@ -112,7 +112,7 @@ body {
     left: 16px;
     top: 420px;
     border-radius: 16px;
-    font-family: Arial;
+    font-family: 'Poor Story', cursive;
     visibility: hidden;
     background-image: url('../assets/detail_container.png');
     background: linear-gradient(120.67deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 101.72%), linear-gradient(113.89deg, rgba(45, 159, 253, 0.15) 0.33%, rgba(179, 24, 193, 0.15) 101.78%);
@@ -155,7 +155,7 @@ body {
 .category_title {
     /* position: absolute;
     left: 20px; */
-    font-family: 'PP Object Sans';
+    font-family: 'Poor Story', cursive;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -168,7 +168,7 @@ body {
 #poiDetailTitle {
     margin: 0;
     margin-top: 7px;
-    font-family: 'PP Object Sans';
+    font-family: 'Poor Story', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -179,7 +179,7 @@ body {
 #poiDetailDescription {
     margin: 0;
     margin-top: 7px;
-    font-family: 'PP Object Sans';
+    font-family: 'Poor Story', cursive;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -190,7 +190,7 @@ body {
 #poiDetailDistance {
     margin: 0;
     margin-top: 7px;
-    font-family: 'PP Object Sans';
+    font-family: 'Poor Story', cursive;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
