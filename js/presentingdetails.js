@@ -126,6 +126,8 @@ var World = {
         var poisToCreate = 5;
         var poiData = [];
         
+
+        
         poiData.push({
             "id": 1,
             "latitude": 37.504041,
