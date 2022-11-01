@@ -130,10 +130,10 @@ var World = {
             "id": 1,
             "latitude": 37.504041,
             "longitude": 127.025744,
-            "description": ("cu건물"),
+            "description": ("cu건물      "),
             /* Use this value to ignore altitude information in general - marker will always be on user-level. */
             "altitude": AR.CONST.UNKNOWN_ALTITUDE,
-            "name": ("CU"),
+            "name": ("CU     "),
             "distance": ("10m")
         });        
         
