@@ -61,6 +61,10 @@ function Marker(poiData) {
             x: -1.2,
             y: -0.45
         },
+        scale: {
+            x: 0.8,
+            y: 0.8,
+        },
         style: {
             textColor: '#000000'
         }
