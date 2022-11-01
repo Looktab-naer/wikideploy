@@ -43,12 +43,12 @@ function Marker(poiData) {
     this.titleLabel = new AR.Label(poiData.title.trunc(10), 1, {
         zOrder: 1,
         translate: {
-            x: -1.2,
+            x: -1.1,
             y: 0.4
         },
         scale:{
-            x: 0.6,
-            y: 0.6
+            x: 0.4,
+            y: 0.4
         },
         style: {
             textColor: '#000000',
@@ -58,12 +58,12 @@ function Marker(poiData) {
     this.descriptionLabel = new AR.Label(poiData.description.trunc(10), 1, {
         zOrder: 1,
         translate: {
-            x: -1,
+            x: -0.7,
             y: -0.45
         },
         scale: {
-            x: 0.8,
-            y: 0.8,
+            x: 0.6,
+            y: 0.6,
         },
         style: {
             textColor: '#000000'
