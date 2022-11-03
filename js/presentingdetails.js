@@ -132,43 +132,45 @@ var World = {
             "id": 1,
             "latitude": 37.504041,
             "longitude": 127.025744,
-            "description": ("씨유편의점"),
+            "description": ("CU"),
             /* Use this value to ignore altitude information in general - marker will always be on user-level. */
             "altitude": AR.CONST.UNKNOWN_ALTITUDE,
-            "name": ("씨유편의점"),
-            "distance": ("10m")
+            "name": ("Life"),
+            "distance": ("2$")
         });        
         
-        // poiData.push({
-        //     "id": 2,
-        //     "latitude": 37.503945,
-        //     "longitude": 127.025543,
-        //     "description": ("백소정 돈까스 건물"),
-        //     /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-        //     "altitude": AR.CONST.UNKNOWN_ALTITUDE,
-        //     "name": ("백소정"),
-        // });  
+        poiData.push({
+            "id": 2,
+            "latitude": 37.503945,
+            "longitude": 127.025543,
+            "description": ("백소정 돈까스 건물"),
+            /* Use this value to ignore altitude information in general - marker will always be on user-level. */
+            "altitude": AR.CONST.UNKNOWN_ALTITUDE,
+            "name": ("RESTAURANT"),
+            "distance": ("15$")
+        });  
 
         poiData.push({
             "id": 3,
             "latitude": 37.503866,
             "longitude": 127.025821,
-            "description": ("마포갈매기"),
+            "description": ("Mapo Galmaegi"),
             /* Use this value to ignore altitude information in general - marker will always be on user-level. */
             "altitude": AR.CONST.UNKNOWN_ALTITUDE,
-            "name": ("마포갈매기"),
-            "distance": ("10m")
+            "name": ("RESTAURANT"),
+            "distance": ("15$")
         });
 
-        // poiData.push({
-        //     "id": 4,
-        //     "latitude": 37.503531,
-        //     "longitude": 127.025686,
-        //     "description": ("순대국 건물"),
-        //     /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-        //     "altitude": AR.CONST.UNKNOWN_ALTITUDE,
-        //     "name": ("담소순대국")
-        // });  
+        poiData.push({
+            "id": 4,
+            "latitude": 37.503531,
+            "longitude": 127.025686,
+            "description": ("Damso Soondae"),
+            /* Use this value to ignore altitude information in general - marker will always be on user-level. */
+            "altitude": AR.CONST.UNKNOWN_ALTITUDE,
+            "name": ("RESTAURANT"),
+            "distance": ("8$")
+        });  
 
         // for (var i = 0; i < poisToCreate; i++) {
         //     var longitude =  (centerPointLongitude + (Math.random() / 5 - 0.1))
