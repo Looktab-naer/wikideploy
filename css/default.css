@@ -105,6 +105,7 @@ body {
 
 
 #panelPoiDetail {
+    z-index: 0;
     display: block;
     width: 320px;
     height: 215px;
@@ -112,10 +113,9 @@ body {
     left: 16px;
     top: 420px;
     border-radius: 16px;
-    font-family: 'Poor Story', cursive;
-    visibility: hidden;
+    visibility: visible;
     background-image: url('../assets/detail_container.png');
-    background: linear-gradient(120.67deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 101.72%), linear-gradient(113.89deg, rgba(45, 159, 253, 0.15) 0.33%, rgba(179, 24, 193, 0.15) 101.78%);
+    /* background: linear-gradient(120.67deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 101.72%), linear-gradient(113.89deg, rgba(45, 159, 253, 0.15) 0.33%, rgba(179, 24, 193, 0.15) 101.78%); */
 }
 
 .detail_image {
@@ -155,7 +155,7 @@ body {
 .category_title {
     /* position: absolute;
     left: 20px; */
-    font-family: 'Poor Story', cursive;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -168,45 +168,45 @@ body {
 #poiDetailTitle {
     margin: 0;
     margin-top: 7px;
-    font-family: 'Poor Story', cursive;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 23px;
-    color: #fff;
+    color: #000;
 }
 
 #poiDetailDescription {
     margin: 0;
     margin-top: 7px;
-    font-family: 'Poor Story', cursive;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
-    color: #fff;
+    color: #000;
 }
 
 #poiDetailDistance {
     margin: 0;
     margin-top: 7px;
-    font-family: 'Poor Story', cursive;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    color: #fff;
+    color: #000;
 }
 
 #poiDetailDistance2 {
     margin: 0;
     margin-top: 7px;
-    font-family: 'PP Object Sans';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    color: #fff;
+    color: #000;
 }
 
 .detail_box {
@@ -217,13 +217,13 @@ body {
     top: 152px;
     text-align: center;
     vertical-align: middle;
-    color: #fff;
-    font-family: 'PP Object Sans';
+    color: #000;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 21px;
-    background: rgba(255, 255, 255, 0.3);
-    /* backdrop-filter: blur(10px); */
+    line-height: 20px;
+    background: #E6E6E6;
+    backdrop-filter: blur(10px);
     border-radius: 12px;
 }
