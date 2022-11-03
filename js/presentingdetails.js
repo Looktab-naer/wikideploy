@@ -143,7 +143,7 @@ var World = {
             "id": 2,
             "latitude": 37.503945,
             "longitude": 127.025543,
-            "description": ("백소정 돈까스 건물"),
+            "description": ("Baeksojung"),
             /* Use this value to ignore altitude information in general - marker will always be on user-level. */
             "altitude": AR.CONST.UNKNOWN_ALTITUDE,
             "name": ("RESTAURANT"),
