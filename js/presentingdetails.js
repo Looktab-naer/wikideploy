@@ -145,7 +145,7 @@ var World = {
       longitude: 127.0254854,
       description: "Baek Sojung",
       /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: AR.CONST.UNKNOWN_ALTITUDE,
+      altitude: 47.400,
       name: "RESTAURANT",
       distance: "2$",
       imagelink:
@@ -171,7 +171,7 @@ var World = {
       longitude: 127.026423,
       description: "jongdon",
       /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: AR.CONST.UNKNOWN_ALTITUDE,
+      altitude: 45.400,
       name: "RESTAURANT",
       distance: "15$",
       imagelink:
@@ -184,7 +184,7 @@ var World = {
       longitude: 127.0262044,
       description: "mibundang",
       /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: AR.CONST.UNKNOWN_ALTITUDE,
+      altitude:47.400,
       name: "RESTAURANT",
       distance: "8$",
       imagelink:
@@ -197,7 +197,7 @@ var World = {
       longitude: 127.0259328,
       description: "Grilled Casa beef r",
       /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: 57.400,
+      altitude: 50.400,
       name: "RESTAURANT",
       distance: "8$",
       imagelink:
@@ -210,7 +210,7 @@ var World = {
       longitude: 127.0259877,
       description: "Into the kimbap",
       /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: AR.CONST.UNKNOWN_ALTITUDE,
+      altitude: 47.400,
       name: "RESTAURANT",
       distance: "8$",
       imagelink:
@@ -223,7 +223,7 @@ var World = {
       longitude: 127.0257275,
       description: "CU",
       /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: AR.CONST.UNKNOWN_ALTITUDE,
+      altitude:  45.400,
       name: "MARKET",
       distance: "8$",
       imagelink:
