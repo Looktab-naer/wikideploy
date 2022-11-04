@@ -230,6 +230,87 @@ var World = {
         "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/CU_BI_%282017%29.svg/1200px-CU_BI_%282017%29.svg.png",
     });
 
+    poiData.push({
+      id: 8,
+      latitude: 1.2867716194219443,
+      longitude: 103.8544067576635,
+      description: "Merlion",
+      /* Use this value to ignore altitude information in general - marker will always be on user-level. */
+      altitude: AR.CONST.UNKNOWN_ALTITUDE,
+      name: "PARK",
+      distance: "8$",
+      imagelink:
+        "https://lh5.googleusercontent.com/p/AF1QipMQCP1ZajhrrvUWUge19k886zipMRK-oEbXHVco=w408-h306-k-no",
+    });
+
+    poiData.push({
+      id: 9,
+      latitude: 1.2865207142802573,
+      longitude: 103.85421523036838,
+      description: "MosBurger",
+      /* Use this value to ignore altitude information in general - marker will always be on user-level. */
+      altitude: AR.CONST.UNKNOWN_ALTITUDE,
+      name: "RESATURANT",
+      distance: "8$",
+      imagelink:
+        "https://lh5.googleusercontent.com/p/AF1QipMwI7gONK7jZpR4sXx4U0zLTgxwpcuV8-vMPeo_=w408-h306-k-no",
+    });
+
+    poiData.push({
+      id: 10,
+      latitude: 1.2861299074177288,
+      longitude: 103.85409860664451,
+      description: "One Fullerton",
+      /* Use this value to ignore altitude information in general - marker will always be on user-level. */
+      altitude: AR.CONST.UNKNOWN_ALTITUDE,
+      name: "MARKET",
+      distance: "8$",
+      imagelink:
+        "https://lh5.googleusercontent.com/p/AF1QipO7cIVrRKUxIcRqIt6IitkykQMFjvdUw3LQL6rJ=w408-h272-k-no",
+    });
+
+    poiData.push({
+      id: 11,
+      latitude: 1.2858621685411373,
+      longitude: 103.85406092535318,
+      description: "issho izakaya",
+      /* Use this value to ignore altitude information in general - marker will always be on user-level. */
+      altitude: AR.CONST.UNKNOWN_ALTITUDE,
+      name: "RESTAURANT",
+      distance: "8$",
+      imagelink:
+        "https://lh5.googleusercontent.com/p/AF1QipNmg7cXyYIv4OSlG3w7bGRZ26It7ltd2YWS22X4=w408-h544-k-no",
+    });
+
+    poiData.push({
+      id: 12,
+      latitude: 1.2857429621827423,
+      longitude: 103.85386261575655,
+      description: "Starbucks",
+      /* Use this value to ignore altitude information in general - marker will always be on user-level. */
+      altitude: AR.CONST.UNKNOWN_ALTITUDE,
+      name: "CAFE",
+      distance: "8$",
+      imagelink:
+        "https://lh5.googleusercontent.com/p/AF1QipN36gnYVF20H3j2AH-fnoLG1gc7zlWLNcWEwR_G=w408-h251-k-no",
+    });
+
+
+    poiData.push({
+      id: 13,
+      latitude: 1.2853245270783846,
+      longitude: 103.85391513223676,
+      description: "Brewerkz",
+      /* Use this value to ignore altitude information in general - marker will always be on user-level. */
+      altitude: AR.CONST.UNKNOWN_ALTITUDE,
+      name: "RESTAURANT",
+      distance: "8$",
+      imagelink:
+        "https://lh5.googleusercontent.com/p/AF1QipOa22Dx6axqU4i7DHMnrnBss75KNip5Vf48wwaO=w408-h272-k-no",
+    });
+
+    
+
     // for (var i = 0; i < poisToCreate; i++) {
     //     var longitude =  (centerPointLongitude + (Math.random() / 5 - 0.1))
     //     var latitude =  (centerPointLatitude + (Math.random() / 5 - 0.1))
