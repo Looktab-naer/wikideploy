@@ -158,7 +158,7 @@ var World = {
       longitude: 127.0259106,
       description: "Gabaedo",
       /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: AR.CONST.UNKNOWN_ALTITUDE,
+      altitude: 48.400,
       name: "CAFE",
       distance: "15$",
       imagelink:
@@ -197,7 +197,7 @@ var World = {
       longitude: 127.0259328,
       description: "Grilled Casa beef r",
       /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: AR.CONST.UNKNOWN_ALTITUDE,
+      altitude: 57.400,
       name: "RESTAURANT",
       distance: "8$",
       imagelink:
@@ -308,6 +308,36 @@ var World = {
       imagelink:
         "https://lh5.googleusercontent.com/p/AF1QipOa22Dx6axqU4i7DHMnrnBss75KNip5Vf48wwaO=w408-h272-k-no",
     });
+     poiData.push({
+      id: 14,
+      latitude: 1.2848209,
+      longitude: 103.8572935,
+      description: "Sen of Japan",
+      altitude: AR.CONST.UNKNOWN_ALTITUDE,
+      name: "RESTAURANT",
+      distance: "48$",
+      imagelink:"https://lh5.googleusercontent.com/p/AF1QipPsENCJY4czgg1CJxvvR5GoI7Qk04ErdGYQPTM6=w408-h272-k-no"
+    });
+     poiData.push({
+       id: 15,
+      latitude: 1.2845059,
+      longitude: 103.8550033,
+      description: "The Nest",
+      altitude: AR.CONST.UNKNOWN_ALTITUDE,
+      name: "RESTAURANT",
+      distance: "22$",
+      imagelink:"https://www.google.com/maps/place/The+Nest/@1.284107,103.859555,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPsiL4jGEUYeKoJXX4BtwIDMIC7mJin70yJ5DH3!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPsiL4jGEUYeKoJXX4BtwIDMIC7mJin70yJ5DH3%3Dw114-h86-k-no!7i4032!8i3024!4m12!1m6!3m5!1s0x31da19042950679d:0xa683666d8ce97cd5!2sImperial+Treasure+Fine+Chinese+Cuisine!8m2!3d1.2845059!4d103.859488!3m4!1s0x0:0x5f212c86c89fab95!8m2!3d1.284107!4d103.859555#"
+      });
+     poiData.push({
+        id: 16,
+        latitude: 1.2822577,
+        longitude: 103.8574964,
+        description: "Punjab Grill",
+        altitude: AR.CONST.UNKNOWN_ALTITUDE,
+        name: "RESTAURANT",
+        distance: "88$",
+        imagelink:"https://lh5.googleusercontent.com/p/AF1QipOmvQDchnX_Bd_qNOr4q7Pnfh67H8GnwTDVHak=w1200-h1126-p-k-no"
+      });
 
     
 
