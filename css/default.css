@@ -115,7 +115,7 @@ body {
     width: 320px;
     height: 215px;
     position: absolute;
-    top: 500px;
+    top: 440px;
     border-radius: 16px;
     visibility: hidden;
     background-image: url('../assets/detail_container.png');
@@ -142,8 +142,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 94px;
+    width: 76px;
     height: 24px;
+    padding: 0 8px;
     background: rgba(255, 224, 230, 0.4);
     border: 1px solid #6AA560;
     border-radius: 100px;
