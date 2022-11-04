@@ -58,7 +58,7 @@ function Marker(poiData) {
     this.descriptionLabel = new AR.Label(poiData.description.trunc(10), 1, {
         zOrder: 1,
         translate: {
-            x: -0.7,
+            x: -0.8,
             y: -0.45
         },
         scale: {
