@@ -110,16 +110,17 @@ body {
 
 
 #panelPoiDetail {
-    z-index: 0;
+    /* z-index: 0; */
     display: block;
     width: 320px;
+    width: 92.2%;
     height: 215px;
     position: absolute;
     bottom: -12px;
     border-radius: 16px;
-    visibility: hidden;
+    visibility: visible;
     background-image: url('../assets/detail_container.png');
-    /* background: linear-gradient(120.67deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 101.72%), linear-gradient(113.89deg, rgba(45, 159, 253, 0.15) 0.33%, rgba(179, 24, 193, 0.15) 101.78%); */
+    background: #ff9;
 }
 
 .detail_image {
@@ -218,10 +219,11 @@ body {
 
 .detail_box {
     width: 296px;
+    width: 90%;
     height: 47px;
     position: absolute;
     left: 16px;
-    top: 142px;
+    top: 148px;
     text-align: center;
     vertical-align: middle;
     color: #000;
