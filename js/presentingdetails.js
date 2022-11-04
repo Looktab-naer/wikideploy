@@ -79,7 +79,7 @@ var World = {
         document.getElementById("poiDetailTitle").innerHTML = marker.poiData.title;
         document.getElementById("poiDetailDescription").innerHTML = marker.poiData.description;
 
-        document.getElementById("poiDetailImage").src = marker.poiData.imagelink;
+        // document.getElementById("poiDetailImage").src = marker.poiData.imagelink;
         
         // document.getElementById("poiImage").src = "https://source.unsplash.com/random"
 
@@ -140,7 +140,7 @@ var World = {
             "altitude": AR.CONST.UNKNOWN_ALTITUDE,
             "name": ("Life"),
             "distance": ("2$"),
-            "imagelink": ("https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg")
+            "imagelink": "https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg"
         });        
         
         poiData.push({
@@ -152,7 +152,7 @@ var World = {
             "altitude": AR.CONST.UNKNOWN_ALTITUDE,
             "name": ("RESTAURANT"),
             "distance": ("15$"),
-            "imagelink": ("https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg")
+            "imagelink": "https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg"
         });  
 
         poiData.push({
@@ -164,7 +164,7 @@ var World = {
             "altitude": AR.CONST.UNKNOWN_ALTITUDE,
             "name": ("RESTAURANT"),
             "distance": ("15$"),
-            "imagelink": ("https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg")
+            "imagelink": "https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg"
         });
 
         poiData.push({
@@ -176,7 +176,7 @@ var World = {
             "altitude": AR.CONST.UNKNOWN_ALTITUDE,
             "name": ("RESTAURANT"),
             "distance": ("8$"),
-            "imagelink": ("https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg")
+            "imagelink": "https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg"
         });  
 
         // for (var i = 0; i < poisToCreate; i++) {
