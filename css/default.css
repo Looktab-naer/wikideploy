@@ -115,9 +115,9 @@ body {
     width: 320px;
     height: 215px;
     position: absolute;
-    top: 468px;
+    bottom: 0;
     border-radius: 16px;
-    visibility: hidden;
+    visibility: visible;
     background-image: url('../assets/detail_container.png');
     /* background: linear-gradient(120.67deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 101.72%), linear-gradient(113.89deg, rgba(45, 159, 253, 0.15) 0.33%, rgba(179, 24, 193, 0.15) 101.78%); */
 }
