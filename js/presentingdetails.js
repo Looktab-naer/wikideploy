@@ -79,7 +79,7 @@ var World = {
         document.getElementById("poiDetailTitle").innerHTML = marker.poiData.title;
         document.getElementById("poiDetailDescription").innerHTML = marker.poiData.description;
 
-        document.getElementById("poiDetailImage").innerHTML = marker.poiData.imagelink;
+        document.getElementById("poiDetailImage").src = marker.poiData.imagelink;
         
         // document.getElementById("poiImage").src = "https://source.unsplash.com/random"
 
