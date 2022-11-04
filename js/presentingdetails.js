@@ -79,7 +79,7 @@ var World = {
         document.getElementById("poiDetailTitle").innerHTML = marker.poiData.title;
         document.getElementById("poiDetailDescription").innerHTML = marker.poiData.description;
 
-        document.getElementById("poiDetailImage").src = "https://pup-review-phinf.pstatic.net/MjAyMjEwMjZfMTUw/MDAxNjY2NzQ1ODQ2MTIx.x6aZ4TLC5n-vJSwELvrv89on5J3skcC5NF0_yBk_tfUg.d7m5einHvDsNrakon78sz25Jq0wKZ2nZJMVqGD44hIEg.JPEG/D1033C66-C88C-41BF-A1B4-64E54666002F.jpeg";
+        document.getElementById("poiDetailImage").src = marker.poiData.imagelink;
         
         // document.getElementById("poiImage").src = "https://source.unsplash.com/random"
 
