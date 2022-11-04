@@ -133,50 +133,86 @@ var World = {
         
         poiData.push({
             "id": 1,
-            "latitude": 37.504041,
-            "longitude": 127.025744,
-            "description": ("CU Convenience Store"),
+            "latitude": 37.5039061,
+            "longitude": 127.0254854,
+            "description": ("Baek Sojung"),
             /* Use this value to ignore altitude information in general - marker will always be on user-level. */
             "altitude": AR.CONST.UNKNOWN_ALTITUDE,
-            "name": ("Life"),
+            "name": ("RESTAURANT"),
             "distance": ("2$"),
-            "imagelink": ("https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg")
+            "imagelink": ("https://ldb-phinf.pstatic.net/20220307_32/https://ldb-phinf.pstatic.net/20221025_83/1666676850732gtnxA_JPEG/10.jpg/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg")
         });        
         
         poiData.push({
             "id": 2,
-            "latitude": 37.503945,
-            "longitude": 127.025543,
-            "description": ("Baeksojung Pork Cutlet"),
+            "latitude": 37.5039952,
+            "longitude": 127.0259106,
+            "description": ("Gabaedo"),
             /* Use this value to ignore altitude information in general - marker will always be on user-level. */
             "altitude": AR.CONST.UNKNOWN_ALTITUDE,
-            "name": ("RESTAURANT"),
+            "name": ("CAFE"),
             "distance": ("15$"),
-            "imagelink": ("https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg")
+            "imagelink": ("https://ldb-phinf.pstatic.net/20180902_235/1535886175483NejeH_JPEG/3pFnSjXANIoXk28jj4qUYW5j.jpg")
         });  
 
         poiData.push({
             "id": 3,
-            "latitude": 37.503866,
-            "longitude": 127.025821,
-            "description": ("Mapo Galmaegi"),
+            "latitude": 37.5039048,
+            "longitude": 127.026423,
+            "description": ("jongdon"),
             /* Use this value to ignore altitude information in general - marker will always be on user-level. */
             "altitude": AR.CONST.UNKNOWN_ALTITUDE,
             "name": ("RESTAURANT"),
             "distance": ("15$"),
-            "imagelink": ("https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg")
+            "imagelink": ("https://pup-review-phinf.pstatic.net/MjAyMjExMDRfMjE5/MDAxNjY3NTU0Njc2ODkw.Ew1dYZA-THeMVGCvlQ3y27S1MJlvPnYddSHosnAQssUg.8zuayl1ygtcpaMxnHu2VZ7sRzJaV-PZhLpQ91sVJvOsg.JPEG/20221104_174933.jpg")
         });
 
         poiData.push({
             "id": 4,
-            "latitude": 37.503531,
-            "longitude": 127.025686,
-            "description": ("Damso Soondae"),
+            "latitude": 37.5037544,
+            "longitude": 127.0262044,
+            "description": ("mibundang"),
             /* Use this value to ignore altitude information in general - marker will always be on user-level. */
             "altitude": AR.CONST.UNKNOWN_ALTITUDE,
             "name": ("RESTAURANT"),
             "distance": ("8$"),
-            "imagelink": ("https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg")
+            "imagelink": ("https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/https://pup-review-phinf.pstatic.net/MjAyMjEwMjZfMTUw/MDAxNjY2NzQ1ODQ2MTIx.x6aZ4TLC5n-vJSwELvrv89on5J3skcC5NF0_yBk_tfUg.d7m5einHvDsNrakon78sz25Jq0wKZ2nZJMVqGD44hIEg.JPEG/D1033C66-C88C-41BF-A1B4-64E54666002F.jpeg-03-07-11-34-55_008.jpeg")
+        });
+        
+        poiData.push({
+            "id": 5,
+            "latitude": 37.5035981,
+            "longitude": 127.0259328,
+            "description": ("Grilled Casa beef r"),
+            /* Use this value to ignore altitude information in general - marker will always be on user-level. */
+            "altitude": AR.CONST.UNKNOWN_ALTITUDE,
+            "name": ("RESTAURANT"),
+            "distance": ("8$"),
+            "imagelink": ("https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/https://pup-review-https://ldb-phinf.pstatic.net/20210706_274/1625562793688SfwWj_JPEG/U4RTD0d4QYMco5KkpBHLMdG9.jpg.pstatic.net/MjAyMjEwMjZfMTUw/MDAxNjY2NzQ1ODQ2MTIx.x6aZ4TLC5n-vJSwELvrv89on5J3skcC5NF0_yBk_tfUg.d7m5einHvDsNrakon78sz25Jq0wKZ2nZJMVqGD44hIEg.JPEG/D1033C66-C88C-41BF-A1B4-64E54666002F.jpeg-03-07-11-34-55_008.jpeg")
+        });  
+
+        poiData.push({
+            "id": 6,
+            "latitude": 37.5034606,
+            "longitude": 127.0259877,
+            "description": ("Into the kimbap"),
+            /* Use this value to ignore altitude information in general - marker will always be on user-level. */
+            "altitude": AR.CONST.UNKNOWN_ALTITUDE,
+            "name": ("RESTAURANT"),
+            "distance": ("8$"),
+            "imagelink": ("https://ldb-phinf.pstatic.net/20220307_32/https://pup-review-phinf.pstatic.net/MjAyMjEwMjFfMTU5/MDAxNjY2MzI0OTY2MDE1.LfH3xjfLrQGB6HpBSNLq6y5MIqIuaoseAHyASs0fdFAg.Gx_YyI85PkPR7JVgaPjL34VjOCZkxGCaJ-iKyApnRnUg.JPEG/D39DB36A-4542-4B33-B58D-7BDD531B3451.jpeg/https://pup-review-phinf.pstatic.net/MjAyMjEwMjZfMTUw/MDAxNjY2NzQ1ODQ2MTIx.x6aZ4TLC5n-vJSwELvrv89on5J3skcC5NF0_yBk_tfUg.d7m5einHvDsNrakon78sz25Jq0wKZ2nZJMVqGD44hIEg.JPEG/D1033C66-C88C-41BF-A1B4-64E54666002F.jpeg-03-07-11-34-55_008.jpeg")
+        });  
+
+        poiData.push({
+            "id": 7,
+            "latitude": 37.504024,
+            "longitude": 127.0257275,
+            "description": ("CU"),
+            /* Use this value to ignore altitude information in general - marker will always be on user-level. */
+            "altitude": AR.CONST.UNKNOWN_ALTITUDE,
+            "name": ("MARKET"),
+            "distance": ("8$"),
+            "imagelink": ("https://ldb-phinf.pstatic.net/20220307_32/https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/CU_BI_%282017%29.svg/1200px-CU_BI_%282017%29.svg.png/https://pup-review-phinf.pstatic.net/MjAyMjEwMjZfMTUw/MDAxNjY2NzQ1ODQ2MTIx.x6aZ4TLC5n-vJSwELvrv89on5J3skcC5NF0_yBk_tfUg.d7m5einHvDsNrakon78sz25Jq0wKZ2nZJMVqGD44hIEg.JPEG/D1033C66-C88C-41BF-A1B4-64E54666002F.jpeg-03-07-11-34-55_008.jpeg")
         });  
 
         // for (var i = 0; i < poisToCreate; i++) {
