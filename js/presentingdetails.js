@@ -126,7 +126,7 @@ var World = {
     },
 
     requestDataFromLocal: function requestDataFromLocalFn(centerPointLatitude, centerPointLongitude) {
-        var poisToCreate = 5;
+        // var poisToCreate = 5;
         var poiData = [];
         
 
