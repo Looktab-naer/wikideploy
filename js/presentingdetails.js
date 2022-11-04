@@ -77,9 +77,9 @@ var World = {
 
         World.currentMarker = marker;
         document.getElementById("poiDetailTitle").innerHTML = marker.poiData.title;
-        // document.getElementById("poiDetailDescription").innerHTML = marker.poiData.description;
+        document.getElementById("poiDetailDescription").innerHTML = marker.poiData.description;
 
-        // document.getElementById("poiDetailImage").src = marker.poiData.imagelink;
+        document.getElementById("poiDetailImage").src = "https://pup-review-phinf.pstatic.net/MjAyMjEwMjZfMTUw/MDAxNjY2NzQ1ODQ2MTIx.x6aZ4TLC5n-vJSwELvrv89on5J3skcC5NF0_yBk_tfUg.d7m5einHvDsNrakon78sz25Jq0wKZ2nZJMVqGD44hIEg.JPEG/D1033C66-C88C-41BF-A1B4-64E54666002F.jpeg";
         
         // document.getElementById("poiImage").src = "https://source.unsplash.com/random"
 
@@ -140,7 +140,7 @@ var World = {
             "altitude": AR.CONST.UNKNOWN_ALTITUDE,
             "name": ("Life"),
             "distance": ("2$"),
-            "imagelink": "https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg"
+            "imagelink": ("https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg")
         });        
         
         poiData.push({
@@ -152,7 +152,7 @@ var World = {
             "altitude": AR.CONST.UNKNOWN_ALTITUDE,
             "name": ("RESTAURANT"),
             "distance": ("15$"),
-            "imagelink": "https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg"
+            "imagelink": ("https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg")
         });  
 
         poiData.push({
@@ -164,7 +164,7 @@ var World = {
             "altitude": AR.CONST.UNKNOWN_ALTITUDE,
             "name": ("RESTAURANT"),
             "distance": ("15$"),
-            "imagelink": "https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg"
+            "imagelink": ("https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg")
         });
 
         poiData.push({
@@ -176,7 +176,7 @@ var World = {
             "altitude": AR.CONST.UNKNOWN_ALTITUDE,
             "name": ("RESTAURANT"),
             "distance": ("8$"),
-            "imagelink": "https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg"
+            "imagelink": ("https://ldb-phinf.pstatic.net/20220307_32/1646653305887fngqS_JPEG/KakaoTalk_Photo_2022-03-07-11-34-55_008.jpeg")
         });  
 
         // for (var i = 0; i < poisToCreate; i++) {
