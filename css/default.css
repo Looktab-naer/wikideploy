@@ -112,15 +112,14 @@ body {
 #panelPoiDetail {
     /* z-index: 0; */
     display: block;
-    width: 320px;
+    /* width: 320px; */
     width: 92.2%;
     height: 215px;
     position: absolute;
     bottom: -12px;
     border-radius: 16px;
-    visibility: visible;
+    visibility: hidden;
     background-image: url('../assets/detail_container.png');
-    background: #ff9;
 }
 
 .detail_image {
@@ -218,7 +217,7 @@ body {
 }
 
 .detail_box {
-    width: 296px;
+    /* width: 296px; */
     width: 90%;
     height: 47px;
     position: absolute;
