@@ -220,7 +220,7 @@ var World = {
     poiData.push({
       id: 7,
       latitude: 37.504024,
-      longitude: 127.0257275,
+      longitude: 127.0257276,
       description: "CU",
       /* Use this value to ignore altitude information in general - marker will always be on user-level. */
       altitude: AR.CONST.UNKNOWN_ALTITUDE,
