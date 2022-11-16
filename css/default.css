@@ -86,6 +86,7 @@ body {
 .category_title {
     /* position: absolute;
     left: 20px; */
+    margin-top: 3px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -96,48 +97,93 @@ body {
     padding-left: 10px;
 }
 
+.title_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 7px;
+    /* justify-content: center; */
+}
+
+.title_icon{
+    width: 16px;
+    height: 16px;
+    padding-bottom: 1px;
+}
+
+
 #poiDetailTitle {
     margin: 0;
-    margin-top: 7px;
+    margin-left: 4px;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 23px;
-    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #CCCCCC;
+}
+
+.des_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 7px;
+    /* justify-content: center; */
+}
+
+.des_icon{
+    width: 16px;
+    height: 16px;
+    padding-bottom: 2px;
+
 }
 
 #poiDetailDescription {
     margin: 0;
-    margin-top: 7px;
+    margin-left: 4px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    color: #000;
+    font-size: 14px;
+    line-height: 17px;
+    color: #CCCCCC;
+}
+
+.dis_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 7px;
+    /* justify-content: center; */
+}
+
+.dis_icon{
+    width: 16px;
+    height: 16px;
+    padding-bottom: 1px;
 }
 
 #poiDetailDistance {
     margin: 0;
-    margin-top: 7px;
+    margin-left: 4px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 18px;
-    color: #000;
+    line-height: 17px;
+    color: #CCCCCC;
 }
 
 #poiDetailDistance2 {
     margin: 0;
-    margin-top: 7px;
+    margin-left: 4px;
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 18px;
-    color: #000;
+    line-height: 17px;
+    color: #CCCCCC;
 }
 
 .detail_box {
@@ -148,14 +194,14 @@ body {
     left: 16px;
     top: 148px;
     text-align: center;
-    vertical-align: middle;
-    color: #000;
+    /* vertical-align: middle; */
+    color: #fff;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    background: #E6E6E6;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    background: #272727;
     backdrop-filter: blur(10px);
     border-radius: 12px;
 }
