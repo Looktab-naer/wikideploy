@@ -43,7 +43,7 @@ body {
     position: absolute;
     bottom: -12px;
     border-radius: 16px;
-    visibility: visible;
+    visibility: hidden;
     background-image: url('../assets/detail_container.png');
 }
 
