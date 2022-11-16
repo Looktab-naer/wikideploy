@@ -26,82 +26,6 @@ body {
     white-space: nowrap;
 }
 
-
-
-/* @media screen and (orientation: portrait) {
-    #popupButton {
-        width: 5vh;
-        height: 5vh;
-    }
-
-    #popupButtonTooltip {
-        width: 40vw;
-        margin-left: -20vw;
-    }
-
-    #panelPoiDetail {
-        width: 70vw;
-    }
-
-    .header {
-        top: 2vh;
-        height: 5vh;
-    }
-
-    .closeButton {
-        height: 4vh;
-        margin-left: 1vw;
-    }
-
-    .headerTitle {
-        margin-left: -10vh;
-        margin-right: 1vw;
-    }
-
-    .content {
-        top: 7vh;
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-} */
-
-/* @media screen and (orientation: landscape) {
-    #popupButton {
-        width: 5vw;
-        height: 5vw;
-    }
-
-    #popupButtonTooltip {
-        width: 40vh;
-        margin-left: -20vh;
-    }
-
-    #panelPoiDetail {
-        width: 70vh;
-    }
-
-    .header {
-        top: 2vw;
-        height: 5vw;
-    }
-
-    .closeButton {
-        height: 4vw;
-        margin-left: 1vh;
-    }
-
-    .headerTitle {
-        margin-left: -10vw;
-        margin-right: 1vh;
-    }
-
-    .content {
-        top: 7vw;
-        margin-left: 5vh;
-        margin-right: 5vh;
-    }
-} */
-
 .test {
     display: flex;
     justify-content: center;
@@ -118,7 +42,7 @@ body {
     position: absolute;
     bottom: -12px;
     border-radius: 16px;
-    visibility: hidden;
+    visibility: visible;
     background-image: url('../assets/detail_container.png');
 }
 

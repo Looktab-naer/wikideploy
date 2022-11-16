@@ -145,7 +145,7 @@ var World = {
       longitude: 127.0254854,
       description: "Baek Sojung",
       /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: 47.400,
+      altitude: 47.4,
       name: "RESTAURANT",
       distance: "2$",
       imagelink:
@@ -158,7 +158,7 @@ var World = {
       longitude: 127.0259106,
       description: "Gabaedo",
       /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: 48.400,
+      altitude: 48.4,
       name: "CAFE",
       distance: "15$",
       imagelink:
@@ -171,7 +171,7 @@ var World = {
       longitude: 127.026423,
       description: "jongdon",
       /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: 45.400,
+      altitude: 45.4,
       name: "RESTAURANT",
       distance: "15$",
       imagelink:
@@ -184,7 +184,7 @@ var World = {
       longitude: 127.0262044,
       description: "mibundang",
       /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude:47.400,
+      altitude: 47.4,
       name: "RESTAURANT",
       distance: "8$",
       imagelink:
@@ -197,7 +197,7 @@ var World = {
       longitude: 127.0259328,
       description: "Grilled Casa beef r",
       /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: 50.400,
+      altitude: 50.4,
       name: "RESTAURANT",
       distance: "8$",
       imagelink:
@@ -210,7 +210,7 @@ var World = {
       longitude: 127.0259877,
       description: "Into the kimbap",
       /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: 47.400,
+      altitude: 47.4,
       name: "RESTAURANT",
       distance: "8$",
       imagelink:
@@ -223,123 +223,123 @@ var World = {
       longitude: 127.0257275,
       description: "CU",
       /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude:  45.400,
+      altitude: 45.4,
       name: "MARKET",
       distance: "8$",
       imagelink:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/CU_BI_%282017%29.svg/1200px-CU_BI_%282017%29.svg.png",
     });
 
-    poiData.push({
-      id: 8,
-      latitude: 1.2867716194219443,
-      longitude: 103.8544067576635,
-      description: "Merlion",
-      /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: AR.CONST.UNKNOWN_ALTITUDE,
-      name: "PARK",
-      distance: "8$",
-      imagelink:
-        "https://lh5.googleusercontent.com/p/AF1QipMQCP1ZajhrrvUWUge19k886zipMRK-oEbXHVco=w408-h306-k-no",
-    });
+    // poiData.push({
+    //   id: 8,
+    //   latitude: 1.2867716194219443,
+    //   longitude: 103.8544067576635,
+    //   description: "Merlion",
+    //   /* Use this value to ignore altitude information in general - marker will always be on user-level. */
+    //   altitude: AR.CONST.UNKNOWN_ALTITUDE,
+    //   name: "PARK",
+    //   distance: "8$",
+    //   imagelink:
+    //     "https://lh5.googleusercontent.com/p/AF1QipMQCP1ZajhrrvUWUge19k886zipMRK-oEbXHVco=w408-h306-k-no",
+    // });
 
-    poiData.push({
-      id: 9,
-      latitude: 1.2865207142802573,
-      longitude: 103.85421523036838,
-      description: "MosBurger",
-      /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: AR.CONST.UNKNOWN_ALTITUDE,
-      name: "RESATURANT",
-      distance: "8$",
-      imagelink:
-        "https://lh5.googleusercontent.com/p/AF1QipMwI7gONK7jZpR4sXx4U0zLTgxwpcuV8-vMPeo_=w408-h306-k-no",
-    });
+    // poiData.push({
+    //   id: 9,
+    //   latitude: 1.2865207142802573,
+    //   longitude: 103.85421523036838,
+    //   description: "MosBurger",
+    //   /* Use this value to ignore altitude information in general - marker will always be on user-level. */
+    //   altitude: AR.CONST.UNKNOWN_ALTITUDE,
+    //   name: "RESATURANT",
+    //   distance: "8$",
+    //   imagelink:
+    //     "https://lh5.googleusercontent.com/p/AF1QipMwI7gONK7jZpR4sXx4U0zLTgxwpcuV8-vMPeo_=w408-h306-k-no",
+    // });
 
-    poiData.push({
-      id: 10,
-      latitude: 1.2861299074177288,
-      longitude: 103.85409860664451,
-      description: "One Fullerton",
-      /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: AR.CONST.UNKNOWN_ALTITUDE,
-      name: "MARKET",
-      distance: "8$",
-      imagelink:
-        "https://lh5.googleusercontent.com/p/AF1QipO7cIVrRKUxIcRqIt6IitkykQMFjvdUw3LQL6rJ=w408-h272-k-no",
-    });
+    // poiData.push({
+    //   id: 10,
+    //   latitude: 1.2861299074177288,
+    //   longitude: 103.85409860664451,
+    //   description: "One Fullerton",
+    //   /* Use this value to ignore altitude information in general - marker will always be on user-level. */
+    //   altitude: AR.CONST.UNKNOWN_ALTITUDE,
+    //   name: "MARKET",
+    //   distance: "8$",
+    //   imagelink:
+    //     "https://lh5.googleusercontent.com/p/AF1QipO7cIVrRKUxIcRqIt6IitkykQMFjvdUw3LQL6rJ=w408-h272-k-no",
+    // });
 
-    poiData.push({
-      id: 11,
-      latitude: 1.2858621685411373,
-      longitude: 103.85406092535318,
-      description: "issho izakaya",
-      /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: AR.CONST.UNKNOWN_ALTITUDE,
-      name: "RESTAURANT",
-      distance: "8$",
-      imagelink:
-        "https://lh5.googleusercontent.com/p/AF1QipNmg7cXyYIv4OSlG3w7bGRZ26It7ltd2YWS22X4=w408-h544-k-no",
-    });
+    // poiData.push({
+    //   id: 11,
+    //   latitude: 1.2858621685411373,
+    //   longitude: 103.85406092535318,
+    //   description: "issho izakaya",
+    //   /* Use this value to ignore altitude information in general - marker will always be on user-level. */
+    //   altitude: AR.CONST.UNKNOWN_ALTITUDE,
+    //   name: "RESTAURANT",
+    //   distance: "8$",
+    //   imagelink:
+    //     "https://lh5.googleusercontent.com/p/AF1QipNmg7cXyYIv4OSlG3w7bGRZ26It7ltd2YWS22X4=w408-h544-k-no",
+    // });
 
-    poiData.push({
-      id: 12,
-      latitude: 1.2857429621827423,
-      longitude: 103.85386261575655,
-      description: "Starbucks",
-      /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: AR.CONST.UNKNOWN_ALTITUDE,
-      name: "CAFE",
-      distance: "8$",
-      imagelink:
-        "https://lh5.googleusercontent.com/p/AF1QipN36gnYVF20H3j2AH-fnoLG1gc7zlWLNcWEwR_G=w408-h251-k-no",
-    });
+    // poiData.push({
+    //   id: 12,
+    //   latitude: 1.2857429621827423,
+    //   longitude: 103.85386261575655,
+    //   description: "Starbucks",
+    //   /* Use this value to ignore altitude information in general - marker will always be on user-level. */
+    //   altitude: AR.CONST.UNKNOWN_ALTITUDE,
+    //   name: "CAFE",
+    //   distance: "8$",
+    //   imagelink:
+    //     "https://lh5.googleusercontent.com/p/AF1QipN36gnYVF20H3j2AH-fnoLG1gc7zlWLNcWEwR_G=w408-h251-k-no",
+    // });
 
-
-    poiData.push({
-      id: 13,
-      latitude: 1.2853245270783846,
-      longitude: 103.85391513223676,
-      description: "Brewerkz",
-      /* Use this value to ignore altitude information in general - marker will always be on user-level. */
-      altitude: AR.CONST.UNKNOWN_ALTITUDE,
-      name: "RESTAURANT",
-      distance: "8$",
-      imagelink:
-        "https://lh5.googleusercontent.com/p/AF1QipOa22Dx6axqU4i7DHMnrnBss75KNip5Vf48wwaO=w408-h272-k-no",
-    });
-     poiData.push({
-      id: 14,
-      latitude: 1.2848209,
-      longitude: 103.8572935,
-      description: "Sen of Japan",
-      altitude: AR.CONST.UNKNOWN_ALTITUDE,
-      name: "RESTAURANT",
-      distance: "48$",
-      imagelink:"https://lh5.googleusercontent.com/p/AF1QipPsENCJY4czgg1CJxvvR5GoI7Qk04ErdGYQPTM6=w408-h272-k-no"
-    });
-     poiData.push({
-       id: 15,
-      latitude: 1.2845059,
-      longitude: 103.8550033,
-      description: "The Nest",
-      altitude: AR.CONST.UNKNOWN_ALTITUDE,
-      name: "RESTAURANT",
-      distance: "22$",
-      imagelink:"https://www.google.com/maps/place/The+Nest/@1.284107,103.859555,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPsiL4jGEUYeKoJXX4BtwIDMIC7mJin70yJ5DH3!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPsiL4jGEUYeKoJXX4BtwIDMIC7mJin70yJ5DH3%3Dw114-h86-k-no!7i4032!8i3024!4m12!1m6!3m5!1s0x31da19042950679d:0xa683666d8ce97cd5!2sImperial+Treasure+Fine+Chinese+Cuisine!8m2!3d1.2845059!4d103.859488!3m4!1s0x0:0x5f212c86c89fab95!8m2!3d1.284107!4d103.859555#"
-      });
-     poiData.push({
-        id: 16,
-        latitude: 1.2822577,
-        longitude: 103.8574964,
-        description: "Punjab Grill",
-        altitude: AR.CONST.UNKNOWN_ALTITUDE,
-        name: "RESTAURANT",
-        distance: "88$",
-        imagelink:"https://lh5.googleusercontent.com/p/AF1QipOmvQDchnX_Bd_qNOr4q7Pnfh67H8GnwTDVHak=w1200-h1126-p-k-no"
-      });
-
-    
+    // poiData.push({
+    //   id: 13,
+    //   latitude: 1.2853245270783846,
+    //   longitude: 103.85391513223676,
+    //   description: "Brewerkz",
+    //   /* Use this value to ignore altitude information in general - marker will always be on user-level. */
+    //   altitude: AR.CONST.UNKNOWN_ALTITUDE,
+    //   name: "RESTAURANT",
+    //   distance: "8$",
+    //   imagelink:
+    //     "https://lh5.googleusercontent.com/p/AF1QipOa22Dx6axqU4i7DHMnrnBss75KNip5Vf48wwaO=w408-h272-k-no",
+    // });
+    // poiData.push({
+    //   id: 14,
+    //   latitude: 1.2848209,
+    //   longitude: 103.8572935,
+    //   description: "Sen of Japan",
+    //   altitude: AR.CONST.UNKNOWN_ALTITUDE,
+    //   name: "RESTAURANT",
+    //   distance: "48$",
+    //   imagelink:
+    //     "https://lh5.googleusercontent.com/p/AF1QipPsENCJY4czgg1CJxvvR5GoI7Qk04ErdGYQPTM6=w408-h272-k-no",
+    // });
+    // poiData.push({
+    //   id: 15,
+    //   latitude: 1.2845059,
+    //   longitude: 103.8550033,
+    //   description: "The Nest",
+    //   altitude: AR.CONST.UNKNOWN_ALTITUDE,
+    //   name: "RESTAURANT",
+    //   distance: "22$",
+    //   imagelink:
+    //     "https://www.google.com/maps/place/The+Nest/@1.284107,103.859555,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPsiL4jGEUYeKoJXX4BtwIDMIC7mJin70yJ5DH3!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPsiL4jGEUYeKoJXX4BtwIDMIC7mJin70yJ5DH3%3Dw114-h86-k-no!7i4032!8i3024!4m12!1m6!3m5!1s0x31da19042950679d:0xa683666d8ce97cd5!2sImperial+Treasure+Fine+Chinese+Cuisine!8m2!3d1.2845059!4d103.859488!3m4!1s0x0:0x5f212c86c89fab95!8m2!3d1.284107!4d103.859555#",
+    // });
+    // poiData.push({
+    //   id: 16,
+    //   latitude: 1.2822577,
+    //   longitude: 103.8574964,
+    //   description: "Punjab Grill",
+    //   altitude: AR.CONST.UNKNOWN_ALTITUDE,
+    //   name: "RESTAURANT",
+    //   distance: "88$",
+    //   imagelink:
+    //     "https://lh5.googleusercontent.com/p/AF1QipOmvQDchnX_Bd_qNOr4q7Pnfh67H8GnwTDVHak=w1200-h1126-p-k-no",
+    // });
 
     // for (var i = 0; i < poisToCreate; i++) {
     //     var longitude =  (centerPointLongitude + (Math.random() / 5 - 0.1))
