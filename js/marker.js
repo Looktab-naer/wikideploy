@@ -60,7 +60,7 @@ function Marker(poiData) {
       y: 0.4,
     },
     style: {
-      textColor: "#000000",
+      textColor: "#cccccc",
     },
   });
 
@@ -75,7 +75,7 @@ function Marker(poiData) {
       y: 0.6,
     },
     style: {
-      textColor: "#000000",
+      textColor: "#ffffff",
     },
   });
 
@@ -90,7 +90,7 @@ function Marker(poiData) {
       y: 0.5,
     },
     style: {
-      textColor: "#000000",
+      textColor: "#cccccc",
     },
   });
 
