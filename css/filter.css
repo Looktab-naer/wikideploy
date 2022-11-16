@@ -348,7 +348,7 @@
     border-radius: 100px;
 }
 
-[type="radio"]{
+[type="radio"] {
     vertical-align: middle;
     appearance: none;
     width: 16px;
@@ -357,7 +357,7 @@
     border-radius: 100px;
 }
 
-[type="radio"]:checked{
+[type="radio"]:checked {
     border: 5px solid transparent;
     background-image: linear-gradient(#000, #000), linear-gradient(to right, #79E6EE, #FFFC57);
     background-origin: border-box;
@@ -371,13 +371,76 @@
     background: #0f0f0f;
 }
 
+.congestion_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.congestion_select_box {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.congestion_select_item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 40px;
+    background: #272727;
+    border-radius: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FF4368;
+}
+
+.congestion_select_item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97px;
+    height: 40px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    background-image: linear-gradient(#272727, #272727), linear-gradient(to right, #79E6EE, #FFFC57);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3BB98C;
+
+}
+
+.congestion_select_item3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 93px;
+    height: 40px;
+    background: #272727;
+    border-radius: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3C96FF;
+}
+
 .save_bar {
     width: 100%;
     background: #0f0f0f;
     display: flex;
     justify-content: center;
     padding: 20px;
-
 }
 
 .save_button {
