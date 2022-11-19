@@ -82,6 +82,11 @@
                     $(".congestion_select_item3").addClass("congestion_active");
                 }
             });
+
+            $('input[type=range]').on('input', function () {
+                var val = $(this).val();
+                $(this).css('background', 'linear-gradient(95.15deg, #79E6EE 0%, #FFFC57 ' + val*10 + '%, #333 ' + val*10 + '%, #333 100%)');
+            });
         });
 
     </script>
@@ -94,7 +99,7 @@
         <div class="top_bar">
             <div class="icon_box">
                 <div class="icon">
-                    <a href="/index.html" class="pre_link">
+                    <a href="/all.html" class="pre_link">
                         <img src="./assets/filter/arrow.png" class="arrow_icon" />
                     </a>
                 </div>
@@ -137,14 +142,20 @@
             <div class="price_box">
                 <p class="price_box_title">1,000 ~ 2,000</p>
                 <div class="range_box">
-                    <div class="range_base"></div>
+                    <div class="range">
+                        <!-- <input type="range" value="0"> -->
+                        <input type="range" min="0" max="10" step="1" value="0">
+                        <div class="range_circle"></div>
+
+                    </div>
+                    <!-- <div class="range_base"></div>
                     <div class="range"></div>
                     <div class="range_main_circle_left">
                         <div class="range_circle"></div>
                     </div>
                     <div class="range_main_circle_right">
                         <div class="range_circle"></div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -188,7 +199,9 @@
     </div>
     <div class="save_bar">
         <div class="save_button">
-            <p>Save</p>
+            <a href="/all.html">
+                <p>Save</p>
+            </a>
         </div>
     </div>
 

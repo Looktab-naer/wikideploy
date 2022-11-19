@@ -33,7 +33,7 @@
     top: 10px;
 }
 
-.pre_link{
+.pre_link {
     text-decoration: none;
     cursor: pointer;
 }
@@ -216,6 +216,60 @@
 }
 
 .range {
+    width: 100%;
+    position: relative;
+}
+
+.range_circle {
+    position: absolute;
+    width: 8.63px;
+    height: 8.63px;
+    background: #000;
+    border-radius: 100%;
+    top: 10px;
+    z-index: 10;
+}
+
+input[type=range] {
+    width: 100%;
+    -webkit-appearance: none;
+    background: transparent;
+    background: #333;
+
+    margin-top: 12px;
+    transition: background 450ms ease-in;
+
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23px;
+    height: 23px;
+    background: linear-gradient(68.04deg, #79E6EE 30.07%, #FFFC57 67.71%);
+
+    border-radius: 100%;
+    margin-top: -10px;
+
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    cursor: pointer;
+    width: 167px;
+    height: 3px;
+
+}
+
+/* background: linear-gradient(95.15deg, #79E6EE 18.69%, #FFFC57 85.22%); */
+
+/* .range {
     position: absolute;
     top: 12px;
     width: 167px;
@@ -255,7 +309,7 @@
     height: 23px;
     background: linear-gradient(68.04deg, #79E6EE 30.07%, #FFFC57 67.71%);
     border-radius: 100%;
-}
+} */
 
 .distance_bar {
     width: 100%;
@@ -404,6 +458,11 @@
     background: linear-gradient(95.15deg, #79E6EE 18.69%, #FFFC57 85.22%);
 }
 
+.save_button a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .save_button p {
     font-family: 'Montserrat';
     font-style: normal;
@@ -412,7 +471,7 @@
     color: #000000;
 }
 
-.active{
+.active {
     border: 1px solid transparent;
     background-image: linear-gradient(#272727, #272727), linear-gradient(to right, #79E6EE, #FFFC57);
     background-origin: border-box;
@@ -421,7 +480,7 @@
     font-weight: 700;
 }
 
-.congestion_active{
+.congestion_active {
     border: 1px solid transparent;
     background-image: linear-gradient(#272727, #272727), linear-gradient(to right, #79E6EE, #FFFC57);
     background-origin: border-box;
