@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/jquery-3.6.1.js"></script>
-    <link rel="stylesheet" href="css/filter.css" />
     <title>Document</title>
     <script>
         $(document).ready(function () {
@@ -34,9 +33,60 @@
                     $(".category3").addClass("active");
                 }
             });
-            
+            $(".category4").off("click").on("click", function () {
+                if ($(".category4").hasClass("active")) {
+                    $(".category4").removeClass("active");
+                }
+                else {
+                    $(".category4").addClass("active");
+                }
+            });
+            $(".category5").off("click").on("click", function () {
+                if ($(".category5").hasClass("active")) {
+                    $(".category5").removeClass("active");
+                }
+                else {
+                    $(".category5").addClass("active");
+                }
+            });
+            $(".category6").off("click").on("click", function () {
+                if ($(".category6").hasClass("active")) {
+                    $(".category6").removeClass("active");
+                }
+                else {
+                    $(".category6").addClass("active");
+                }
+            });
+
+            $(".congestion_select_item1").off("click").on("click", function () {
+                if ($(".congestion_select_item1").hasClass("congestion_active")) {
+                    $(".congestion_select_item1").removeClass("congestion_active");
+                }
+                else {
+                    $(".congestion_select_item1").addClass("congestion_active");
+                }
+            });
+            $(".congestion_select_item2").off("click").on("click", function () {
+                if ($(".congestion_select_item2").hasClass("congestion_active")) {
+                    $(".congestion_select_item2").removeClass("congestion_active");
+                }
+                else {
+                    $(".congestion_select_item2").addClass("congestion_active");
+                }
+            });
+            $(".congestion_select_item3").off("click").on("click", function () {
+                if ($(".congestion_select_item3").hasClass("congestion_active")) {
+                    $(".congestion_select_item3").removeClass("congestion_active");
+                }
+                else {
+                    $(".congestion_select_item3").addClass("congestion_active");
+                }
+            });
         });
+
     </script>
+    <link rel="stylesheet" href="css/filter.css" />
+
 </head>
 
 <body>
