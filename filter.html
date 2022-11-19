@@ -140,13 +140,12 @@
         <div class="price_bar">
             <p class="price_title">Price</p>
             <div class="price_box">
-                <p class="price_box_title">1,000 ~ 2,000</p>
+                <p class="price_box_title">1,000 ~ <span id="value1">1,000</span></p>
                 <div class="range_box">
                     <div class="range">
                         <!-- <input type="range" value="0"> -->
-                        <input type="range" min="0" max="10" step="1" value="0">
-                        <div class="range_circle"></div>
-
+                        <input type="range" min="0" max="10" step="1" value="0" oninput="document.getElementById('value1').innerHTML=(parseInt(this.value)+1)*1000;">
+                        <!-- <div class="range_circle"></div> -->
                     </div>
                     <!-- <div class="range_base"></div>
                     <div class="range"></div>
