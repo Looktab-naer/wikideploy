@@ -5,8 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.6.1.js"></script>
     <link rel="stylesheet" href="css/filter.css" />
     <title>Document</title>
+    <script>
+        $(document).ready(function () {
+            $(".category1").off("click").on("click", function () {
+                if ($(".category1").hasClass("active")) {
+                    $(".category1").removeClass("active");
+                }
+                else {
+                    $(".category1").addClass("active");
+                }
+            });
+            $(".category2").off("click").on("click", function () {
+                if ($(".category2").hasClass("active")) {
+                    $(".category2").removeClass("active");
+                }
+                else {
+                    $(".category2").addClass("active");
+                }
+            });
+            $(".category3").off("click").on("click", function () {
+                if ($(".category3").hasClass("active")) {
+                    $(".category3").removeClass("active");
+                }
+                else {
+                    $(".category3").addClass("active");
+                }
+            });
+            
+        });
+    </script>
 </head>
 
 <body>
