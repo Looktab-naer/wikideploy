@@ -206,3 +206,8 @@ body {
     backdrop-filter: blur(10px);
     border-radius: 12px;
 }
+
+.filter_link{
+    text-decoration: none;
+    cursor: pointer;
+}

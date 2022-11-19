@@ -33,6 +33,11 @@
     top: 10px;
 }
 
+.pre_link{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .arrow_icon {
     position: absolute;
     left: 11px;
