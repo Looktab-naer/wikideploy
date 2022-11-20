@@ -232,7 +232,7 @@ input[id="check1"]:checked+label::after {
 .review_image_row{
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-gap: 2px;
+    grid-gap: 1px;
     width: 100%;
 }
 
@@ -263,14 +263,14 @@ input[id="check1"]:checked+label::after {
 
 .review_card_image {
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-gap: 2px;
+    grid-template-columns: repeat(3, 106px);
+    grid-gap: 1px;
     width: 100%;
     margin-bottom: 12px;
 }
 
 .review_image {
-    width: 100%;
+    width: 106px;
     height: 106px;
 }
 
