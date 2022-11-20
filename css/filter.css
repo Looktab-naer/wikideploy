@@ -58,10 +58,10 @@
 
 .shop_bar {
     width: 100%;
-    height: 226px;
+    height: 174px;
     padding: 20px;
     background: #0f0f0f;
-
+    border-bottom: 1px solid #171717;
 }
 
 .shop_title {
@@ -79,7 +79,7 @@
     align-items: flex-start;
     margin-top: 20px;
     width: 266px;
-    height: 144px;
+    height: 92px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -150,13 +150,14 @@
     height: 40px;
     background: #272727;
     border-radius: 100px;
+    margin-right: 8px;
 }
 
 .category6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 130px;
+    width: 62px;
     height: 40px;
     border-radius: 100px;
     background: #272727;
@@ -174,6 +175,7 @@
     width: 100%;
     height: 146px;
     padding: 20px;
+    border-bottom: 1px solid #171717;
 }
 
 .price_title {
@@ -235,7 +237,6 @@ input[type=range] {
     -webkit-appearance: none;
     background: transparent;
     background: #333;
-
     margin-top: 12px;
     transition: background 450ms ease-in;
 
@@ -320,6 +321,7 @@ input[type=range]::-webkit-slider-runnable-track {
     height: 274px;
     padding: 20px;
     background: #0f0f0f;
+    border-bottom: 1px solid #171717;
 }
 
 .distance_title {
@@ -397,7 +399,6 @@ input[type=range]::-webkit-slider-runnable-track {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .congestion_select_item1 {
@@ -413,6 +414,7 @@ input[type=range]::-webkit-slider-runnable-track {
     font-weight: 400;
     font-size: 16px;
     color: #FF4368;
+    margin-right: 8px;
 }
 
 .congestion_select_item2 {
@@ -428,6 +430,8 @@ input[type=range]::-webkit-slider-runnable-track {
     font-weight: 400;
     font-size: 16px;
     color: #3BB98C;
+    margin-right: 8px;
+
 }
 
 .congestion_select_item3 {
@@ -443,6 +447,8 @@ input[type=range]::-webkit-slider-runnable-track {
     font-weight: 400;
     font-size: 16px;
     color: #3C96FF;
+    margin-right: 8px;
+
 }
 
 .save_bar {
@@ -481,7 +487,7 @@ input[type=range]::-webkit-slider-runnable-track {
     background-origin: border-box;
     background-clip: content-box, border-box;
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .congestion_active {
@@ -489,5 +495,5 @@ input[type=range]::-webkit-slider-runnable-track {
     background-image: linear-gradient(#272727, #272727), linear-gradient(to right, #79E6EE, #FFFC57);
     background-origin: border-box;
     background-clip: content-box, border-box;
-    font-weight: 700;
+    font-weight: 500;
 }
