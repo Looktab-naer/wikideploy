@@ -7,7 +7,6 @@
 
 .top_bar {
     background: #0f0f0f;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -267,54 +266,6 @@ input[type=range]::-webkit-slider-runnable-track {
     height: 3px;
 
 }
-
-#value1{
-    color: #fff;
-}
-
-/* background: linear-gradient(95.15deg, #79E6EE 18.69%, #FFFC57 85.22%); */
-
-/* .range {
-    position: absolute;
-    top: 12px;
-    width: 167px;
-    height: 3px;
-    background: linear-gradient(95.15deg, #79E6EE 18.69%, #FFFC57 85.22%);
-}
-
-.range_circle {
-    position: absolute;
-    width: 8.63px;
-    height: 8.63px;
-    background: #000;
-    border-radius: 100%;
-}
-
-.range_main_circle_left {
-    position: absolute;
-    top: 2px;
-    right: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 23px;
-    height: 23px;
-    background: linear-gradient(68.04deg, #79E6EE 30.07%, #FFFC57 67.71%);
-    border-radius: 100%;
-}
-
-.range_main_circle_right {
-    position: absolute;
-    top: 2px;
-    left: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 23px;
-    height: 23px;
-    background: linear-gradient(68.04deg, #79E6EE 30.07%, #FFFC57 67.71%);
-    border-radius: 100%;
-} */
 
 .distance_bar {
     width: 100%;
