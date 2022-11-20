@@ -33,6 +33,11 @@ var World = {
       }
     );
 
+    function searchParam(key) {
+      return new URLSearchParams(location.search).get(key);
+    }
+    var link4 = searchParam("type");
+
     /* Loop through POI-information and create an AR.GeoObject (=Marker) per POI. */
     for (
       var currentPlaceNr = 0;
@@ -49,8 +54,10 @@ var World = {
         distance: poiData[currentPlaceNr].distance,
         imagelink: poiData[currentPlaceNr].imagelink,
       };
+      if(link4 == poiData[currentPlaceNr].name){
+        World.markerList.push(new Marker(singlePoi));
+      }
 
-      World.markerList.push(new Marker(singlePoi));
     }
 
     /* Updates distance information of all placemarks. */
@@ -142,9 +149,9 @@ var World = {
       id: 1,
       latitude: 37.611137,
       longitude: 126.928211,
-      description: "test house",
+      description: "cafe",
       altitude: 47.4,
-      name: "House",
+      name: "cafe",
       distance: "2$",
       imagelink:
         "https://ldb-phinf.pstatic.net/20221025_83/1666676850732gtnxA_JPEG/10.jpg",
@@ -154,9 +161,9 @@ var World = {
       id: 2,
       latitude: 37.611425,
       longitude: 126.928085,
-      description: "house2",
+      description: "cafe2",
       altitude: 47.4,
-      name: "House",
+      name: "restaurant",
       distance: "4$",
       imagelink:
         "https://ldb-phinf.pstatic.net/20221025_83/1666676850732gtnxA_JPEG/10.jpg",
