@@ -2,40 +2,41 @@
 <html>
 
 <head>
-
-    <!--  basic meta information -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="Content-Type" content="application/json; charset=utf-8">
-    <!-- disables pinch-scaling of the webview, so that gestures only do what they're supposed to -->
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
-
     <title>My ARchitect World</title>
-
     <script src="https://www.wikitude.com/libs/architect.js"></script>
     <script src="../ade.js"></script>
-
-    <!-- marker representation-->
     <script src="js/allmarker.js"></script>
-
-    <!-- World logic-->
     <script type="text/javascript" src="js/alldetails.js"></script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.css" />
-
 </head>
 
 <body>
+    <!-- <div class="top">
+        <div class="top_area">
+            <div class="arrow_box">
+                <img src="./assets/arrow_icon.png" class="arrow_icon" />
+            </div>
+            <div class="filter_box">
+                <a href="/filter.html" class="filter_link">
+                    <img src="./assets/filter_button.png" class="filter_icon" /></a>
+            </div>
+        </div>
+    </div> -->
     <div class="test">
         <div class="top_area">
             <div class="arrow_box">
                 <img src="./assets/arrow_icon.png" class="arrow_icon" />
             </div>
             <div class="filter_box">
-                <img src="./assets/filter_button.png" class="filter_icon" />
+                <a href="/filter.html" class="filter_link">
+                    <img src="./assets/filter_button.png" class="filter_icon" /></a>
             </div>
         </div>
         <div id="panelPoiDetail">
@@ -64,7 +65,7 @@
                 </div>
             </div>
             <div class="detail_box">
-                <a href="/filter.html" class="filter_link">
+                <a href="/detail.html" class="filter_link">
                     <p>detail</p>
                 </a>
             </div>
