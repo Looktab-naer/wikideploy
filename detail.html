@@ -8,6 +8,38 @@
     <script src="js/jquery-3.6.1.js"></script>
 
     <title>Document</title>
+    <script>
+        $(document).ready(function () {
+            $("#check1").off("click").on("click", function () {
+                if ($('input:checkbox[id="check1"]').is(':checked') == false) {
+                    if ($(".review_card_box").hasClass("hide")) {
+                        $(".review_card_box").removeClass("hide")
+                    }
+                    $(".review_tab").addClass("hide");
+                    $(".review_image_box").addClass("hide");
+                }
+
+                if ($('input:checkbox[id="check1"]').is(':checked') == true) {
+                    $(".review_card_box").addClass("hide")
+
+                    if ($(".review_tab").hasClass("hide")) {
+                        $(".review_tab").removeClass("hide")
+                    }
+
+                    if ($(".review_image_box").hasClass("hide")) {
+                        $(".review_image_box").removeClass("hide")
+                    }
+                }
+            })
+
+            $(".tab").click(function () {
+                var idx = $(this).index();
+                $(".tab").removeClass("tab_select");
+                $(".tab").eq(idx).addClass("tab_select");
+            })
+        });
+
+    </script>
     <link rel="stylesheet" href="css/detail.css" />
 </head>
 
@@ -59,6 +91,31 @@
                 <input type="checkbox" value="View only pictures" id="check1" />
                 <label for="check1"></label>
                 <p class="">View only pictures</p>
+            </div>
+
+            <div class="review_tab hide">
+                <div class="tab tab_select">All</div>
+                <div class="tab">Shop</div>
+                <div class="tab">Food</div>
+                <div class="tab">Selfy</div>
+            </div>
+
+            <div class="review_image_box hide">
+                <div class="review_image_row">
+                    <img src="./assets/detail/review_image1.png" class="row_image" />
+                    <img src="./assets/detail/review_image1.png" class="row_image" />
+                    <img src="./assets/detail/review_image1.png" class="row_image" />
+                </div>
+                <div class="review_image_row">
+                    <img src="./assets/detail/review_image1.png" class="row_image" />
+                    <img src="./assets/detail/review_image1.png" class="row_image" />
+                    <img src="./assets/detail/review_image1.png" class="row_image" />
+                </div>
+                <div class="review_image_row">
+                    <img src="./assets/detail/review_image1.png" class="row_image" />
+                    <img src="./assets/detail/review_image1.png" class="row_image" />
+                    <img src="./assets/detail/review_image1.png" class="row_image" />
+                </div>
             </div>
 
             <div class="review_card_box">
