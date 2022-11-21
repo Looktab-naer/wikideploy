@@ -52,7 +52,11 @@ var World = {
         distance: poiData[currentPlaceNr].distance,
         imagelink: poiData[currentPlaceNr].imagelink,
       };
-      if(link4 == poiData[currentPlaceNr].name){
+      
+      if(link4 == "all"){
+        World.markerList.push(new Marker(singlePoi));
+      }
+      else if(link4 == poiData[currentPlaceNr].name){
         World.markerList.push(new Marker(singlePoi));
       }
 
@@ -131,8 +135,8 @@ var World = {
 
     poiData.push({
       id: 1,
-      latitude: 37.5027899,
-      longitude: 127.0278026,
+      latitude: 37.502824775159816,
+      longitude: 127.02779847587531,
       description: "something about coffee",
       altitude: 47.4,
       name: "CAFE",
@@ -143,8 +147,8 @@ var World = {
 
     poiData.push({
       id: 2,
-      latitude: 37.5030004,
-      longitude: 127.0280905,
+      latitude: 37.5029796720996,
+      longitude: 127.028119720582,
       description: "alver coffee",
       altitude: 47.4,
       name: "CAFE",
@@ -155,8 +159,8 @@ var World = {
 
     poiData.push({
       id: 3,
-      latitude: 37.5034605,
-      longitude: 127.0278301,
+      latitude: 37.5034987166465,
+      longitude: 127.027843963703,
       description: "macho chef",
       altitude: 47.4,
       name: "RESTAURANT",
@@ -167,8 +171,8 @@ var World = {
 
     poiData.push({
       id: 4,
-      latitude: 37.5028764,
-      longitude: 127.0281122,
+      latitude: 37.503116764524,
+      longitude: 127.027527157767,
       description: "paulin pancake",
       altitude: 47.4,
       name: "RESTAURANT",
