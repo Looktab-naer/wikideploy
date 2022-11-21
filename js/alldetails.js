@@ -15,7 +15,6 @@ var World = {
   loadPoisFromJsonData: function loadPoisFromJsonDataFn(poiData) {
     World.markerList = [];
 
-    /* Start loading marker assets. */
     World.markerDrawableIdle = new AR.ImageResource("assets/marker_idle.png", {
       onError: World.onError,
     });
@@ -38,7 +37,6 @@ var World = {
     }
     var link4 = searchParam("type");
 
-    /* Loop through POI-information and create an AR.GeoObject (=Marker) per POI. */
     for (
       var currentPlaceNr = 0;
       currentPlaceNr < poiData.length;
@@ -60,7 +58,6 @@ var World = {
 
     }
 
-    /* Updates distance information of all placemarks. */
     World.updateDistanceToUserValues();
 
     World.updateStatusMessage(currentPlaceNr + " places loaded");
@@ -94,8 +91,6 @@ var World = {
 
     document.getElementById("poiDetailImage").src = marker.poiData.imagelink;
 
-    // document.getElementById("poiImage").src = "https://source.unsplash.com/random"
-
     if (undefined === marker.distanceToUser) {
       marker.distanceToUser = marker.markerObject.locations[0].distanceToUser();
     }
@@ -107,33 +102,23 @@ var World = {
 
     // document.getElementById("poiDetailDistance").innerHTML = distanceToUserValue;
 
-    /* Show panel. */
     document.getElementById("panelPoiDetail").style.visibility = "visible";
   },
 
   closePanel: function closePanel() {
-    /* Hide panel. */
     document.getElementById("panelPoiDetail").style.visibility = "hidden";
 
     if (World.currentMarker != null) {
-      /* Deselect AR-marker when user exits detail screen div. */
       World.currentMarker.setDeselected(World.currentMarker);
       World.currentMarker = null;
     }
   },
-
-  /* Screen was clicked but no geo-object was hit. */
   onScreenClick: function onScreenClickFn() {
-    /* You may handle clicks on empty AR space too. */
     World.closePanel();
   },
 
-  /* Returns distance in meters of placemark with maxdistance * 1.1. */
   getMaxDistance: function getMaxDistanceFn() {
-    /* Sort places by distance so the first entry is the one with the maximum distance. */
     World.markerList.sort(World.sortByDistanceSortingDescending);
-
-    /* Use distanceToUser to get max-distance. */
     var maxDistanceMeters = World.markerList[0].distanceToUser;
     return maxDistanceMeters * 1.1;
   },
@@ -142,31 +127,54 @@ var World = {
     centerPointLatitude,
     centerPointLongitude
   ) {
-    // var poisToCreate = 5;
     var poiData = [];
 
     poiData.push({
       id: 1,
-      latitude: 37.611137,
-      longitude: 126.928211,
-      description: "cafe",
+      latitude: 37.5027899,
+      longitude: 127.0278026,
+      description: "something about coffee",
       altitude: 47.4,
-      name: "cafe",
-      distance: "2$",
+      name: "CAFE",
+      distance: "5$",
       imagelink:
-        "https://ldb-phinf.pstatic.net/20221025_83/1666676850732gtnxA_JPEG/10.jpg",
+        "https://ldb-phinf.pstatic.net/20200410_63/1586525835413cIJAS_JPEG/tgP2t6xLpFwDN_PCxDkLFXzU.jpeg.jpg",
     });
 
     poiData.push({
       id: 2,
-      latitude: 37.611425,
-      longitude: 126.928085,
-      description: "cafe2",
+      latitude: 37.5030004,
+      longitude: 127.0280905,
+      description: "alver coffee",
       altitude: 47.4,
-      name: "restaurant",
+      name: "CAFE",
       distance: "4$",
       imagelink:
-        "https://ldb-phinf.pstatic.net/20221025_83/1666676850732gtnxA_JPEG/10.jpg",
+        "https://pup-review-phinf.pstatic.net/MjAyMjExMjBfMTk3/MDAxNjY4OTQ0MDY5MTMz.yT57x-H8ZwIHe6fjiggp4XWbjHxz7vNP2RzGA5UPWHMg.YDBAmXwcfYQR3hFkfnsFThSWdVKlxDB6s0PkasIhM7gg.JPEG/20221120_153039.jpg",
+    });
+
+    poiData.push({
+      id: 3,
+      latitude: 37.5034605,
+      longitude: 127.0278301,
+      description: "macho chef",
+      altitude: 47.4,
+      name: "RESTAURANT",
+      distance: "15$",
+      imagelink:
+        "https://ldb-phinf.pstatic.net/20181017_295/1539760407307VqTwf_JPEG/WoCvtxZO6LDFGI_2w7jnNwyj.jpg",
+    });
+
+    poiData.push({
+      id: 4,
+      latitude: 37.5028764,
+      longitude: 127.0281122,
+      description: "paulin pancake",
+      altitude: 47.4,
+      name: "RESTAURANT",
+      distance: "13$",
+      imagelink:
+        "https://ldb-phinf.pstatic.net/20181202_29/15437195517664ojMr_JPEG/q_CIjFmn90u4WKQ90cKEsalX.jpg",
     });
 
     // poiData.push({
@@ -263,12 +271,10 @@ var World = {
     World.loadPoisFromJsonData(poiData);
   },
 
-  /* Helper to sort places by distance. */
   sortByDistanceSorting: function sortByDistanceSortingFn(a, b) {
     return a.distanceToUser - b.distanceToUser;
   },
 
-  /* Helper to sort places by distance, descending. */
   sortByDistanceSortingDescending: function sortByDistanceSortingDescendingFn(
     a,
     b
@@ -281,8 +287,5 @@ var World = {
   },
 };
 
-/* Forward locationChanges to custom function. */
 AR.context.onLocationChanged = World.locationChanged;
-
-/* Forward clicks in empty area to World. */
 AR.context.onScreenClick = World.onScreenClick;
